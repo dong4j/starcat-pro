@@ -4,9 +4,9 @@
 <h2>Starcat Pro</h2>
 <p>GitHub Stars 管理、README 渲染、AI 摘要、语义搜索、Release 追踪、仓库健康度、Browser Plugin、CodeFlow、CodebaseMemory 等能力。</p>
 
-<a href="https://starcat.ink/downloads/Starcat-1.1.0-arm64.dmg"><img src="https://img.shields.io/badge/Download%20for-macOS-22C55E?style=for-the-badge&logo=apple&logoColor=white" width="220" alt="Download for macOS"/></a><br/>
+<a href="https://github.com/dong4j/homebrew-starcat"><img src="https://img.shields.io/badge/Install%20with-Homebrew-FBBF24?style=for-the-badge&logo=homebrew&logoColor=white" width="220" alt="Install with Homebrew"/></a><br/>
 <sub>
-<b>macOS 15 Sequoia 或更高版本</b>：下载面向 Apple Silicon Mac 的 <a href="https://starcat.ink/downloads/Starcat-1.1.0-arm64.dmg">当前 Direct 版本</a>。<br>
+<b>macOS 15 Sequoia 或更高版本</b>：优先使用 <a href="https://github.com/dong4j/homebrew-starcat">Homebrew</a> 安装，也可以下载面向 Apple Silicon Mac 的 <a href="https://starcat.ink/downloads/Starcat-1.1.0-arm64.dmg">当前 Direct 版本</a>。<br>
 历史版本与发布说明：<a href="./CHANGELOG-ZH.md">更新日志</a> · <a href="https://starcat.ink/changelog.html">官网更新记录</a><br>
 公开问题反馈：<a href="https://github.com/dong4j/starcat-pro/issues">反馈 bug 或提出功能建议</a><br>
 English: <a href="./README.md">README.md</a>
@@ -62,6 +62,7 @@ _注：带星号 (*) 的能力是 Pro 方向工作流，或依赖当前应用版
 Starcat 目前以 macOS Direct 版本提供。核心整理能力免费，Pro 工作流、更高 AI 配额和高级代码智能能力仍在准备中。
 
 - 从官网下载 Starcat：https://starcat.ink
+- Homebrew tap：https://github.com/dong4j/homebrew-starcat
 - 当前 Direct 版本：https://starcat.ink/downloads/Starcat-1.1.0-arm64.dmg
 - 发布说明：https://starcat.ink/changelog.html
 
@@ -71,7 +72,15 @@ Pro 购买尚未开放。最终价格、权益规则和支付流程会在 Starca
 
 ## Installation
 
-手动安装：
+首选使用 Homebrew 安装：
+
+```bash
+brew tap dong4j/starcat
+brew trust dong4j/starcat
+brew install --cask starcat
+```
+
+也可以手动安装：
 
 1. 从 https://starcat.ink 下载最新 Direct `.dmg`。
 2. 打开 `.dmg` 文件。
