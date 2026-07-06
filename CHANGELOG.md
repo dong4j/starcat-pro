@@ -2,6 +2,31 @@
 
 All notable changes to Starcat are summarized here for release notes.
 
+## 1.2.0
+
+### New
+
+- Added Getting Started onboarding system covering sync, RAG/Agent trials, project homepage, and knowledge base setup, with back navigation and debug-mode toggle.
+- Added overlay state protection to prevent onboarding lockout after unexpected exits, unified manual replay guard, and share guidance bubble positioning.
+- Added Agent and RAG workbenches as independent system windows with floating pin control, collapsible sidebars, and inherited interface scale.
+- Added Agent plan and tool output display, expanded event model, and completed runtime event feedback loop.
+- Added landing page hero loading animation with multi-stage transitions, macOS-native download modal with refreshed pricing grid, and a download version section.
+
+### Improved
+
+- Improved Agent workbench with enhanced audit trail visibility, refined reply styling, more recognizable toolbar entry points, and adjusted title bar controls.
+- Improved DMG background through multiple iterations including a lighter theme, simplified visuals, refined positioning, and updated icon and app-drop-link coordinates.
+- Improved landing page visual presentation by removing outer window styling from the hero area, hiding the Pro pricing card, and polishing overall texture.
+- Improved first-sync and weekly page loading states with shared loading indicators replacing empty-state views.
+- Improved DMG file name readability and background generation style.
+
+### Fixed
+
+- Fixed Agent default artifact selection on load.
+- Fixed RAG and workbench input boxes inserting unexpected newlines on first keystroke.
+- Fixed RAG middle column message alignment and restored workbench title bar icon visibility.
+- Fixed landing page macOS version label text.
+
 ## 1.1.0
 
 ### New
@@ -77,5 +102,6 @@ Initial Starcat release.
 - Use English and Simplified Chinese throughout the app.
 - Run as a native macOS app with sandboxing, hardened runtime, window management, and App Store readiness work in place.
 
+[1.2.0]: https://github.com/dong4j/starcat/releases/tag/1.2.0
 [1.1.0]: https://github.com/dong4j/starcat/releases/tag/1.1.0
 [1.0.0]: https://github.com/dong4j/starcat/releases/tag/1.0.0
