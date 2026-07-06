@@ -1,7 +1,7 @@
 # Starcat Pro
 
 <p align="center">
-  <img src="./20260706180230_GyAMtI7f.png" alt="Starcat Pro 横幅图" width="100%">
+  <img src="./20260706180230_GyAMtI7f.webp" alt="Starcat Pro 横幅图" width="100%">
 </p>
 
 <p align="center">
