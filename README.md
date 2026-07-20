@@ -4,9 +4,9 @@
 <h2>Starcat Pro</h2>
 <p>GitHub Stars Management, README Rendering, AI Summaries, Semantic Search, Release Tracking, Repo Health, Browser Plugin, CodeFlow, CodebaseMemory and More!</p>
 
-<a href="https://github.com/dong4j/homebrew-starcat"><img src="https://img.shields.io/badge/Install%20with-Homebrew-FBBF24?style=for-the-badge&logo=homebrew&logoColor=white" width="220" alt="Install with Homebrew"/></a><br/>
+<a href="https://github.com/starcat-app/homebrew-starcat"><img src="https://img.shields.io/badge/Install%20with-Homebrew-FBBF24?style=for-the-badge&logo=homebrew&logoColor=white" width="220" alt="Install with Homebrew"/></a><br/>
 <sub>
-<b>macOS 15 Sequoia or newer</b>: Install with <a href="https://github.com/dong4j/homebrew-starcat">Homebrew</a>, or download the <a href="https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg">current Direct build</a> for Apple Silicon Macs.<br>
+<b>macOS 15 Sequoia or newer</b>: Install with <a href="https://github.com/starcat-app/homebrew-starcat">Homebrew</a>, or download the <a href="https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg">current Direct build</a> for Apple Silicon Macs.<br>
 Previous versions and release notes: <a href="./CHANGELOG.md">Changelog</a> · <a href="https://starcat.ink/changelog.html">Website changelog</a><br>
 Public issue tracker: <a href="https://github.com/starcat-app/starcat-pro/issues">Report a bug or request a feature</a><br>
 中文说明: <a href="./README-ZH.md">README-ZH.md</a>
@@ -62,7 +62,7 @@ _Note: features marked with an asterisk (*) are Pro-oriented workflows or depend
 Starcat currently ships as a macOS Direct build. Core organization features are free while Pro workflows, higher AI quotas and advanced code-intelligence features are being prepared.
 
 - Download Starcat from the official website: https://starcat.ink
-- Homebrew tap: https://github.com/dong4j/homebrew-starcat
+- Homebrew tap: https://github.com/starcat-app/homebrew-starcat
 - Current Direct build: https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg
 - Release notes: https://starcat.ink/changelog.html
 
@@ -75,8 +75,8 @@ Please star the GitHub page, try the app and report issues so the public release
 Homebrew is the preferred installation method:
 
 ```bash
-brew tap dong4j/starcat
-brew trust dong4j/starcat
+brew tap starcat-app/starcat
+brew trust starcat-app/starcat
 brew install --cask starcat
 ```
 
@@ -110,7 +110,7 @@ The project also prepares integration points for local automation and repository
 
 ### Browser Plugin Projects
 
-- [starcat-chrome-plugin](https://github.com/dong4j/starcat-chrome-plugin) - Chrome/Chromium companion extension for GitHub pages.
+- [starcat-chrome-plugin](https://github.com/starcat-app/starcat-chrome-plugin) - Chrome/Chromium companion extension for GitHub pages.
 - [starcat-safari-plugin](https://github.com/starcat-app/starcat-safari-plugin) - Safari WebExtension companion package for macOS.
 
 ### Self-Hostable API Projects
