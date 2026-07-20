@@ -8,7 +8,7 @@
 <sub>
 <b>macOS 15 Sequoia or newer</b>: Install with <a href="https://github.com/dong4j/homebrew-starcat">Homebrew</a>, or download the <a href="https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg">current Direct build</a> for Apple Silicon Macs.<br>
 Previous versions and release notes: <a href="./CHANGELOG.md">Changelog</a> · <a href="https://starcat.ink/changelog.html">Website changelog</a><br>
-Public issue tracker: <a href="https://github.com/dong4j/starcat-pro/issues">Report a bug or request a feature</a><br>
+Public issue tracker: <a href="https://github.com/starcat-app/starcat-pro/issues">Report a bug or request a feature</a><br>
 中文说明: <a href="./README-ZH.md">README-ZH.md</a>
 </sub>
 </div>
@@ -19,7 +19,7 @@ Public issue tracker: <a href="https://github.com/dong4j/starcat-pro/issues">Rep
 <a href="https://starcat.ink"><img src="https://img.shields.io/badge/website-starcat.ink-38BDF8?style=flat&color=blue" alt="website"/></a>
 <a href="https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg"><img src="https://img.shields.io/badge/platform-macOS%2015%2B-lightgrey.svg?style=flat&color=blue" alt="platform"/></a>
 <a href="https://github.com/dong4j/starcat-localization"><img src="https://img.shields.io/badge/localization-open%20for%20contributors-lightgrey.svg?style=flat&color=blue" alt="localization"/></a>
-<a href="https://github.com/dong4j/starcat-pro/issues"><img src="https://img.shields.io/github/issues/dong4j/starcat-pro?style=flat&color=blue" alt="issues"/></a>
+<a href="https://github.com/starcat-app/starcat-pro/issues"><img src="https://img.shields.io/github/issues/starcat-app/starcat-pro?style=flat&color=blue" alt="issues"/></a>
 </div>
 
 <br />
@@ -140,6 +140,6 @@ Please check the official homepage first: https://starcat.ink
 
 This repository is the public support and release-notes home for Starcat Pro. Use GitHub Issues for bugs, usability problems and feature requests:
 
-https://github.com/dong4j/starcat-pro/issues
+https://github.com/starcat-app/starcat-pro/issues
 
 This repository does **not** contain application source code, backend source code, build scripts or private configuration.
