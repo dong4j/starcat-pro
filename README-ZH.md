@@ -8,7 +8,7 @@
 <sub>
 <b>macOS 15 Sequoia 或更高版本</b>：优先使用 <a href="https://github.com/dong4j/homebrew-starcat">Homebrew</a> 安装，也可以下载面向 Apple Silicon Mac 的 <a href="https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg">当前 Direct 版本</a>。<br>
 历史版本与发布说明：<a href="./CHANGELOG-ZH.md">更新日志</a> · <a href="https://starcat.ink/changelog.html">官网更新记录</a><br>
-公开问题反馈：<a href="https://github.com/dong4j/starcat-pro/issues">反馈 bug 或提出功能建议</a><br>
+公开问题反馈：<a href="https://github.com/starcat-app/starcat-pro/issues">反馈 bug 或提出功能建议</a><br>
 English: <a href="./README.md">README.md</a>
 </sub>
 </div>
@@ -19,7 +19,7 @@ English: <a href="./README.md">README.md</a>
 <a href="https://starcat.ink"><img src="https://img.shields.io/badge/website-starcat.ink-38BDF8?style=flat&color=blue" alt="website"/></a>
 <a href="https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg"><img src="https://img.shields.io/badge/platform-macOS%2015%2B-lightgrey.svg?style=flat&color=blue" alt="platform"/></a>
 <a href="https://github.com/starcat-app/starcat-localization"><img src="https://img.shields.io/badge/localization-open%20for%20contributors-lightgrey.svg?style=flat&color=blue" alt="localization"/></a>
-<a href="https://github.com/dong4j/starcat-pro/issues"><img src="https://img.shields.io/github/issues/dong4j/starcat-pro?style=flat&color=blue" alt="issues"/></a>
+<a href="https://github.com/starcat-app/starcat-pro/issues"><img src="https://img.shields.io/github/issues/starcat-app/starcat-pro?style=flat&color=blue" alt="issues"/></a>
 </div>
 
 <br />
@@ -140,6 +140,6 @@ https://github.com/starcat-app/starcat-localization
 
 这个仓库是 Starcat Pro 的公开支持和发布说明入口。请使用 GitHub Issues 反馈 bug、体验问题和功能建议：
 
-https://github.com/dong4j/starcat-pro/issues
+https://github.com/starcat-app/starcat-pro/issues
 
 这个仓库**不包含**应用源码、后端源码、构建脚本或私有配置。
