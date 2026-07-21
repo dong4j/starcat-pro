@@ -2,6 +2,17 @@
 
 All notable changes to Starcat are summarized here for release notes.
 
+## 1.2.0-待发布
+
+### New
+
+- Added repository share links that open Starcat and locate the shared repository.
+
+### Improvements
+
+- Improved AI sharing by reusing existing AI summaries, with support for cancelling creation and generating a new AI share link.
+- Improved the RAG workspace UI.
+
 ## 1.1.0
 
 Starcat 1.1.0 turns saved repositories into a local-first, explainable RAG knowledge base, with broad performance, reliability, and macOS interface improvements.
