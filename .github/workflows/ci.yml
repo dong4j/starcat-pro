@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate public support assets
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Validate bilingual documents and shared assets
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          required = [
+              "README.md", "README-ZH.md", "CHANGELOG.md", "CHANGELOG-ZH.md",
+              "banner.webp", "main.webp",
+          ]
+          for name in required:
+              path = Path(name)
+              if not path.is_file() or path.stat().st_size == 0:
+                  raise SystemExit(f"missing or empty required file: {name}")
+
+          # 其它 Starcat 仓库直接引用这两个 WebP 路径，必须验证文件签名而不只验证扩展名。
+          for name in ("banner.webp", "main.webp"):
+              data = Path(name).read_bytes()[:12]
+              if len(data) < 12 or data[:4] != b"RIFF" or data[8:12] != b"WEBP":
+                  raise SystemExit(f"invalid WebP asset: {name}")
+
+          for name in ("README.md", "README-ZH.md"):
+              text = Path(name).read_text(encoding="utf-8")
+              # starcat-pro 是推广素材源，不包含下游仓库使用的 promo marker。
+              for required_link in ("./banner.webp", "./main.webp", "https://starcat.ink"):
+                  if required_link not in text:
+                      raise SystemExit(f"{name} is missing required public reference: {required_link}")
+
+          print("validated bilingual public support documents and shared assets")
+          PY
