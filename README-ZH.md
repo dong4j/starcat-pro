@@ -108,6 +108,12 @@ Starcat 提供 GitHub 页面 companion 工作流。Browser Plugin 可以在 GitH
 
 项目也在准备本地自动化和仓库智能工作流的集成点，例如 CodeFlow 和 CodebaseMemory。
 
+### CLI、MCP 与 AI Agent 项目
+
+- [starcat-cli](https://github.com/starcat-app/starcat-cli) - 用于读取和整理 Starcat 数据的跨平台 CLI 与 MCP bridge。
+- [homebrew-starcat-cli](https://github.com/starcat-app/homebrew-starcat-cli) - 用于安装和更新 CLI 的官方 Homebrew tap。
+- [starcat-skill](https://github.com/starcat-app/starcat-skill) - 面向 Codex、Claude Code 等 AI Agent 的官方工作流与安全约束。
+
 ### Browser Plugin Projects
 
 - [starcat-chrome-plugin](https://github.com/starcat-app/starcat-chrome-plugin) - 用于 GitHub 页面的 Chrome/Chromium companion extension。

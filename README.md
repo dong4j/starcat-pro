@@ -108,6 +108,12 @@ Starcat includes companion workflows for GitHub pages. The browser plugin can su
 
 The project also prepares integration points for local automation and repository intelligence workflows such as CodeFlow and CodebaseMemory.
 
+### CLI, MCP & AI Agent Projects
+
+- [starcat-cli](https://github.com/starcat-app/starcat-cli) - cross-platform CLI and MCP bridge for reading and organizing Starcat data.
+- [homebrew-starcat-cli](https://github.com/starcat-app/homebrew-starcat-cli) - official Homebrew tap for installing and updating the CLI.
+- [starcat-skill](https://github.com/starcat-app/starcat-skill) - official workflow and safety contract for AI agents such as Codex and Claude Code.
+
 ### Browser Plugin Projects
 
 - [starcat-chrome-plugin](https://github.com/starcat-app/starcat-chrome-plugin) - Chrome/Chromium companion extension for GitHub pages.
